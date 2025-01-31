@@ -448,6 +448,14 @@
                 position: relative;
                 height: 50% !important;
             }
+            .navbar-fixed {
+                left: 0;
+                position: fixed;
+                top: 0;
+                min-height: 90px;
+                width: 100%;
+                z-index: 1000;
+            }
         </style>
         <style type="text/css" data-type="vc_shortcodes-custom-css">
             .vc_custom_1418753900625 {
@@ -466,7 +474,7 @@
         <section id="slider-container" style="display: none;">
             <iframe width="100%" height="100%" src="https://www.youtube.com/embed/q6UcK9kR4h8?autoplay=1" title="ANAVITÓRIA - Explodir (ao vivo)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </section>
-        <div class="navbar navbar-default">
+        <div class="navbar navbar-default" style="position: fixed !important; width: 100%; z-index: 1000;">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -535,7 +543,7 @@
                 </div>
             </div>
         </div>
-        <section id="page">
+        <section id="page" style="padding: 150px;">
             <div class="container">
                 <div class="heading" data-scroll-reveal>
                     <h2>Nossa História de Amor</h2>
